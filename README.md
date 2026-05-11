@@ -4,3 +4,6 @@ WordPress-Menu-(-scrolling-) https://github.com/cmoizer1995/Wordpress-Plugins-/t
 
 cm docs system 
 https://github.com/cmoizer1995/Wordpress-Plugins-/tree/Cm-Doc-System
+
+Nova Logoin 
+https://github.com/cmoizer1995/Wordpress-Plugins-/tree/Nova-Login
