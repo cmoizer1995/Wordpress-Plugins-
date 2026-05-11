@@ -19,3 +19,6 @@ https://github.com/cmoizer1995/Wordpress-Plugins-/tree/Sketchup
 
 CM-Docs-Documentation-System
 https://github.com/cmoizer1995/Wordpress-Plugins-/tree/CM-Docs-Documentation-System
+
+Sidebar Menu System (Elementor Plugin)
+https://github.com/cmoizer1995/Wordpress-Plugins-/tree/Sidebar-Menu-System-(Elementor-Plugin)
