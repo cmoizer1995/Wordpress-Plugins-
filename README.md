@@ -11,3 +11,5 @@ https://github.com/cmoizer1995/Wordpress-Plugins-/tree/Nova-Login
 Live Blog System
 https://github.com/cmoizer1995/Wordpress-Plugins-/tree/Live-Blog-System
 
+CV System
+https://github.com/cmoizer1995/Wordpress-Plugins-/tree/CV-System
