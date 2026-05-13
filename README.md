@@ -1,166 +1,191 @@
-# GitHub Repo Selector v1.0
+# Wordpress-Plugins
 
-A modern Elementor-powered GitHub repository showcase plugin for WordPress.
+GitHub Repo Selector v1.0
 
-GitHub Repo Selector allows WordPress websites to connect directly to GitHub repositories using a secure GitHub Personal Access Token system. The plugin was designed to make showcasing repositories, plugins, web apps, and development projects simple inside Elementor without requiring custom code or manual shortcode setup.
+A modern GitHub repository showcase and management plugin for WordPress and Elementor.
 
-The plugin dynamically pulls repositories from the connected GitHub account and provides live repository previews, branch switching, README rendering, GitHub buttons, and ZIP downloads directly from the Elementor editor.
+GitHub Repo Selector allows website owners, developers, and portfolio creators to connect their GitHub account directly to WordPress using a GitHub Personal Access Token and dynamically display repositories, branches, README content, GitHub statistics, download buttons, and front-end GitHub management tools.
 
-⸻
+The plugin was designed as a plug-and-play GitHub integration system with Elementor support, front-end dashboard controls, responsive layouts, and GitHub syncing features.
+
+---
 
 Features
 
-GitHub Account Integration
+GitHub Repository Display
 
-Connect a GitHub account using a GitHub Personal Access Token and automatically pull repositories connected to the authenticated GitHub account.
+- Display repositories directly from GitHub.
+- Show repository descriptions, branches, stats, and README content.
+- Automatically updates repository and branch caches from GitHub.
+- Supports single repository mode, multi repository mode, and all repositories mode.
 
-⸻
+Branch Support
 
-Elementor Live Rendering
+- Branch dropdown selector.
+- View repositories by selected branch.
+- Download ZIP files from selected branches.
+- Open selected branches directly on GitHub.
 
-Live Elementor rendering updates instantly while editing:
+README Integration
 
-* Repository selections
-* Display modes
-* Branch selections
-* README visibility
-* Button visibility
-* Styling controls
+- Automatically pulls README.md content from GitHub.
+- Supports:
+  - README.md
+  - readme.md
+  - README
+  - README.MD
+  - Readme.md
+- Scrollable README rendering.
+- Front-end README editing support.
+- README popup editor with markdown toolbar.
 
-No manual page refresh required.
+Front-End Dashboard Mode
 
-⸻
+Optional front-end GitHub management tools:
 
-Display Modes
+- Update repositories & branches cache.
+- Create repositories.
+- Create branches.
+- Delete repositories.
+- Delete branches.
+- Delete files.
+- Upload ZIP files directly to GitHub.
+- Create or update custom files.
+- Create and edit README.md files.
 
-Supports:
+GitHub Management Tools
 
-* Single repository mode
-* Multiple repository mode
-* All repositories mode
+- Add repository or branch from one dashboard box.
+- Repository dropdown automatically appears when adding a branch.
+- File deletion dropdown loads GitHub files dynamically.
+- Latest GitHub edit URL tracking.
+- Automatically clears latest edit cache when deleted from GitHub.
 
-⸻
+Elementor Support
 
-Branch-Aware Repository System
+- Live Elementor rendering support.
+- Responsive controls.
+- Repository dropdown selectors inside Elementor editor.
+- Front-end dashboard switch for management mode.
 
-Repositories can display:
+Download Buttons
 
-* Main/default branch
-* Custom selected branch
+Each repository card supports:
 
-GitHub links, README previews, and ZIP downloads automatically follow the selected branch.
+- View on GitHub button.
+- Download ZIP button.
+- Branch-aware downloads.
 
-⸻
+Responsive Layout
 
-View on GitHub Button
+- Automatically adjusts columns depending on screen size.
+- Mobile friendly layout.
+- Dashboard cards styled consistently across devices.
 
-Automatically generates GitHub repository links matching the selected repository and branch.
-
-Example: https://github.com/USERNAME/REPOSITORY/tree/BRANCH
-
-Download ZIP Button
-
-Creates direct GitHub ZIP download links for:
-
-* Entire repository
-* Selected branch ZIP
-Example: https://github.com/USERNAME/REPOSITORY/archive/refs/heads/BRANCH.zip
-README Preview Support
-
-Display GitHub README files directly inside Elementor layouts.
-
-⸻
-
-Repository Cache System
-
-The plugin includes a repository caching system designed to:
-
-* Reduce GitHub API calls
-* Improve Elementor dropdown performance
-* Speed up repository loading
-* Store repository lists locally inside WordPress
-
-⸻
-
-Mobile-Friendly Elementor Controls
-
-Optimised for:
-
-* iPhone
-* iPad
-* Responsive Elementor editing
-* Mobile dropdown rendering
-
-⸻
+---
 
 GitHub Token Setup
 
 This plugin requires a GitHub Personal Access Token.
 
-Recommended token type: Fine-grained personal access token
-Recommended permissions: Repository access: All repositories
-Contents: Read-only
-Metadata: Read-only
-GitHub token settings: GitHub → Settings → Developer settings → Personal access tokens
-How It Works
+Recommended token type:
 
-Step 1 — Connect GitHub
+- Classic Personal Access Token
 
-Add your GitHub Personal Access Token inside: WordPress Admin → GitHub Repo Selector Settings
-Step 2 — Update Repository Cache Press: Update Repositories
-The plugin will:
+Recommended permissions:
 
-* Connect to GitHub
-* Pull repositories
-* Build the Elementor repository dropdown cache
+- repo
+- workflow
+- read:user
 
-⸻
+Create your token at:
+https://github.com/settings/tokens
 
-Step 3 — Add Widget To Elementor
+After creating the token:
 
-Inside Elementor:
+1. Open GitHub Repo Selector Settings.
+2. Paste the token into the token field.
+3. Save changes.
+4. Click "Update Repositories & Branches".
 
-1. Add the GitHub Repo Selector widget
-2. Choose:
-    * Single repository
-    * Multiple repositories
-    * All repositories
-3. Select repository/branch
-4. Enable README or buttons if required
+---
 
-⸻
+Front-End Dashboard Features
 
-Step 4 — Publish
+When Front-End Dashboard Mode is enabled:
 
-The widget automatically renders:
+- GitHub tools appear directly on the front-end.
+- Repository and branch management becomes available.
+- README editor popup becomes available.
+- GitHub cache statistics are shown:
+  - Repositories cached
+  - Branches cached
+  - Last updated
+  - Latest GitHub edit URL
 
-* GitHub repository data
-* README previews
-* GitHub links
-* ZIP downloads
+---
 
-⸻
+Included GitHub Tools
+
+Add Repository or Branch
+
+One combined dashboard tool for:
+
+- Creating repositories.
+- Creating branches linked to existing repositories.
+
+Delete Repository / Branch / File
+
+Single delete box supporting:
+
+- Delete repository.
+- Delete branch.
+- Delete file.
+
+README Popup Editor
+
+- Load README directly from GitHub.
+- Opens in popup editor.
+- Markdown-style toolbar included.
+- Scrollable editing area.
+
+ZIP Uploads
+
+Upload ZIP files directly to GitHub repositories and branches.
+
+Custom File Creation
+
+Create or update:
+
+- README.md
+- JSON files
+- CSS files
+- PHP files
+- Markdown files
+- Other custom files.
+
+---
 
 Tech Stack
 
-* WordPress
-* Elementor
-* PHP
-* CSS
-* JavaScript
-* AJAX
-* GitHub REST API
-* Responsive Design
-* WordPress Hooks & Actions
+- WordPress
+- Elementor
+- PHP
+- JavaScript
+- GitHub REST API
+- AJAX
+- Responsive CSS
+- Markdown README Rendering
 
-  Version v1.0
-  Author
+---
+
+Author
 
 Connor Moizer
-https://connormoizer.com
+https://ConnorMoizer.com
 
-⸻
+---
 
-License
+Version
 
-GPL-2.0-or-later
+v1.0
