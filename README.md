@@ -22,3 +22,6 @@ https://github.com/cmoizer1995/Wordpress-Plugins-/tree/CM-Docs-Documentation-Sys
 
 Sidebar Menu System (Elementor Plugin)
 https://github.com/cmoizer1995/Wordpress-Plugins-/tree/Sidebar-Menu-System-(Elementor-Plugin)
+
+GitHub Repo Selector v1.0
+https://github.com/cmoizer1995/Wordpress-Plugins/tree/GitHub-Repo-Selector
