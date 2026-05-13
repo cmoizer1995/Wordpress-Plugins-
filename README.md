@@ -1,4 +1,4 @@
-#GitHub Repo Selector v1.0
+# GitHub Repo Selector v1.0
 
 A modern Elementor-powered GitHub repository showcase plugin for WordPress.
 
