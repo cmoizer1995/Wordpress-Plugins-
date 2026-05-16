@@ -25,3 +25,6 @@ https://github.com/cmoizer1995/Wordpress-Plugins-/tree/Sidebar-Menu-System-(Elem
 
 GitHub Repo Selector v1.0
 https://github.com/cmoizer1995/Wordpress-Plugins/tree/GitHub-Repo-Selector
+
+CMUK Elementor Editor Cleaner
+https://github.com/cmoizer1995/Wordpress-Plugins/tree/CMUK-Elementor-Editor-Cleaner
